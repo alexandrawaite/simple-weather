@@ -24,7 +24,7 @@ fieldset {
   min-width: -webkit-min-content;
   padding: 30px;
 }
-.ghost-input, p {
+.city-input, p {
   display: block;
   font-weight:300;
   width: 100%;
@@ -46,10 +46,10 @@ fieldset {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-.ghost-input:focus {
+.city-input:focus {
   border-bottom:1px solid #ddd;
 }
-.ghost-button {
+.get-weather-button {
   background-color: transparent;
   border:2px solid #ddd;
   padding:10px 30px;
@@ -61,7 +61,7 @@ fieldset {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-.ghost-button:hover {
+.get-weather-button:hover {
   border:2px solid #515151;
 }
 p {
